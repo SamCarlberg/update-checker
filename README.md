@@ -1,5 +1,7 @@
 # update-checker
 
+[ ![Download](https://api.bintray.com/packages/samcarlberg/maven-artifacts/update-checker/images/download.svg) ](https://bintray.com/samcarlberg/maven-artifacts/update-checker/_latestVersion)
+
 A simple Java library that checks for updates to software in Maven repositories.
 It provides means for getting the most recent versions of a software package from arbitrary
 Maven repositories.
