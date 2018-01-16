@@ -37,7 +37,7 @@ repositories {
 
 dependencies {
     compileOnly(group = "org.projectlombok", name = "lombok", version = "1.16.20")
-    implementation(group = "com.github.zafarkhaja", name = "java-semver", version = "0.9.0")
+    api(group = "com.github.zafarkhaja", name = "java-semver", version = "0.9.0")
     fun junitJupiter(name: String, version: String = "5.0.0") =
             create(group = "org.junit.jupiter", name = name, version = version)
     testCompile(junitJupiter(name = "junit-jupiter-api"))
